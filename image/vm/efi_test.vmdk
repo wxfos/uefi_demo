@@ -1,0 +1,20 @@
+# Disk DescriptorFile
+version=1
+encoding="GBK"
+CID=fffffffe
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4194304 SPARSE "efi_test-s001.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "ide"
+ddb.geometry.cylinders = "4161"
+ddb.geometry.heads = "16"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "704131c4794d7b8cbb2a4f5dfffffffe"
+ddb.uuid = "60 00 C2 9c d6 25 4e 32-72 2b 0a ff 17 d2 0c 27"
+ddb.virtualHWVersion = "20"
